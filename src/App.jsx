@@ -133,7 +133,7 @@ function App() {
                 {messages.map((item) => (
                   <Message
                     key={item.id}
-                    user={item.uid === user.uid ? "me" : "other"}
+                    user={item.uid === user.uid ? "me" : "anonymous"}
                     // name={user.displayName}
                     text={item.text}
                     uri={item.uri}

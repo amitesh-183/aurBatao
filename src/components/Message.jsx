@@ -1,6 +1,6 @@
 import { HStack, Heading, VStack, Avatar, Text } from "@chakra-ui/react";
 
-export default function Message({ text, uri, user = "other" }) {
+export default function Message({ text, uri, user = "anonymous" }) {
   let datetime = new Date().toLocaleTimeString("en-US", {
     hour12: true,
     hour: "numeric",
