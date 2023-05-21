@@ -160,6 +160,20 @@ function App() {
           </Container>
         ) : (
           <VStack justifyContent={"center"} h={"100vh"} bg={"white"}>
+            <Heading
+              style={{
+                color: "#7b88db",
+                backgroundImage:
+                  "-webkitLinearGradient(0deg, #7b88db 0%, #6151aa 33%, #3d64f8 67%)",
+                backgroundClip: "text",
+                textFillColor: "transparent",
+              }}
+              size={"2xl"}
+              fontFamily={"sans-serif"}
+              colorScheme=""
+            >
+              AurBatao
+            </Heading>
             <Button colorScheme="teal" onClick={loginHandler}>
               Sign In With Google
             </Button>
